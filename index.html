@@ -21,14 +21,14 @@
     <link rel="stylesheet" href="/assets/css/style.css?v=24566fee86bd67fb2e8e592a502e77fd6643da2c">
     <style>
       table,th,td{border:1px;padding:2px} table{width:650px;text-align:left;} th,td{color:#d8d8d8},
-      h1{font-family: 'Courier New';}, h2{font-family: 'Courier New';}, p{font-family: 'OpenSansLightItalic'},
+      h1{font-family: 'Courier New';}, h2{font-family: 'Courier New';}, p{font-family: 'OpenSansLight'},
       img{float:center;}
 .thetext
 {width: 654px; margin: 0 auto; text-align:left;
 -moz-column-count:2; /* Firefox */
 -webkit-column-count:2; /* Safari and Chrome */
 column-count:2;
-font-family: 'OpenSansLightItalic';
+font-family: 'OpenSansLight';
 -moz-column-gap:40px; /* Firefox */
 -webkit-column-gap:40px; /* Safari and Chrome */
 column-gap:40px;}
@@ -36,7 +36,7 @@ column-gap:40px;}
 {width: 654px; margin: 0 auto; text-align:left;
 -moz-column-count:1; /* Firefox */
 -webkit-column-count:1; /* Safari and Chrome */
-column-count:1; color:#d8d8d8; font-family: 'OpenSansLightItalic'}
+column-count:1; color:#d8d8d8; font-family: 'OpenSansLight'}
 
 
 
@@ -47,15 +47,28 @@ width: 650px;
 float: center;
 padding: 20px 0;
 text-align: center;
-font-family: "Source Code Pro";
+font-family: "Courier New";
 font-size: 9pt;
 }
     </style>
   </head>
   <body>
     <center>
-    <div class="container-lg px-3 my-5 markdown-body">
-    <h1><a href="https://abhinavrd.github.io/">Abhinav Ravindra Dehadrai</a></h1>
+    <!--<div class="container-lg px-3 my-5 markdown-body">-->
+    <div id="title">
+          <h1><a href="https://abhinavrd.github.io/">Abhinav Ravindra Dehadrai</a></h1>
+          <hr>
+          <span class="credits left">  <a href="https://www.researchgate.net/profile/Abhinav_Dehadrai"> R<sup>G</sup> </a></span>
+          <span class="credits right">  <a href="https://www.linkedin.com/in/abhinav-dehadrai-014a6b13/"> LinkedIn </a></span>
+        </div>  
+    
+      
+     <div id="header">
+        <nav>
+          <li class="fork"><a href="https://www.researchgate.net/profile/Abhinav_Dehadrai">R<sup>G</sup></a></li>
+          <li class="fork"><a href="https://www.linkedin.com/in/abhinav-dehadrai-014a6b13/">LinkedIn</a></li>          
+        </nav>
+      </div><!-- end header --> 
       
 <!--My content starts here-->
 <center> 
@@ -118,13 +131,13 @@ We have studied the dynamics of a vertically traveling heavy cable through rolle
 <i>
 <p>
 <img src="slosh1.jpg" style="float:right" height="30%" />
-Sloshing refers to the motion of a liquid inside a container. It may be caused by any disturbance of partially-filled liquid containers. This motion of the fluid is typically uncontrolled and hence affects the dynamics of the container in a non-trivial manner. For example, in a partially-filled container, the oscillation of the liquid shifts the systemâ€™s center of mass. To understand this motion, we need to know how the oscillation of the fluid depends upon the motion of the container, forces acting on it and the shape of the container. An exact analytical understanding of sloshing is difficult, and even computations are not certainly straightforward. <br />
+Sloshing refers to the motion of a liquid inside a container. It may be caused by any disturbance of partially-filled liquid containers. This motion of the fluid is typically uncontrolled and hence affects the dynamics of the container in a non-trivial manner. For example, in a partially-filled container, the oscillation of the liquid shifts the system's center of mass. To understand this motion, we need to know how the oscillation of the fluid depends upon the motion of the container, forces acting on it and the shape of the container. An exact analytical understanding of sloshing is difficult, and even computations are not certainly straightforward. <br />
 <br />
-  Liquid propellants constitute the largest part of the total mass of many spacecrafts. Sloshing of liquid fuel in the fuel tanks affects the attitude dynamics of the spacecraft, specifically, itâ€™s orientation and angular velocity. The deviation of the actual attitudinal motion from the predicted rigid body motion, may allow us to know the life remaining in the spacecraft provided we are able to quantify, to some extent, the effects of fuel sloshing on the spacecraftâ€™s motion.<br /><br />
+  Liquid propellants constitute the largest part of the total mass of many spacecrafts. Sloshing of liquid fuel in the fuel tanks affects the attitude dynamics of the spacecraft, specifically, its orientation and angular velocity. The deviation of the actual attitudinal motion from the predicted rigid body motion, may allow us to know the life remaining in the spacecraft provided we are able to quantify, to some extent, the effects of fuel sloshing on the spacecraft's motion.<br /><br />
 <img src="slosh3.jpg" style="float:right" height="20%" />
-We approximate the motion of the fuel in itâ€™s first mode by the motion of a spherical pendulum whose length and mass are related to the amount of fuel remaining. The spacecraft is modeled as a rigid body. To compare with a lab-scale experiment we will, in fact, take the spacecraft to be suspended from a point on the Earthâ€™s surface. Thus, the system is taken as a spherical compound pendulum with an internally suspended spherical simple pendulum. <br /><br />
+We approximate the motion of the fuel in its first mode by the motion of a spherical pendulum whose length and mass are related to the amount of fuel remaining. The spacecraft is modeled as a rigid body. To compare with a lab-scale experiment we will, in fact, take the spacecraft to be suspended from a point on the Earth's surface. Thus, the system is taken as a spherical compound pendulum with an internally suspended spherical simple pendulum. <br /><br />
 <img src="pendulum.jpg" style="float:right" height="30%" />
-We derive the equations of motion of such a system that can be integrated, provided we know the length and mass of the spherical simple pendulum. Other system parameters, such as, the mass of spacecraft, itâ€™s orientation and inertia are assumed known. Then, from the experiment we obtain physical parameters -- Eulerâ€™s angles and their rates. We identify the length and mass of the spherical simple pendulum that best match the obtained data, which is in the form of the Euler angles and Euler rates, over the entire period of the experiment. This allows us to estimate the amount of fuel remaining.
+We derive the equations of motion of such a system that can be integrated, provided we know the length and mass of the spherical simple pendulum. Other system parameters, such as, the mass of spacecraft, its orientation and inertia are assumed known. Then, from the experiment we obtain physical parameters -- Euler angles and their rates. We identify the length and mass of the spherical simple pendulum that best match the obtained data, which is in the form of the Euler angles and Euler rates, over the entire period of the experiment. This allows us to estimate the amount of fuel remaining.
 The results obtained on integration of the equations matched fairly with the experimental data.
 </p>
 </i>
