@@ -1,4 +1,4 @@
-## नमस्कार | Namaskaar
+## नमस्कार | Namaskāra | Hello
 
 I am a PhD student with Prof. Ishan Sharma and Prof. Shakti S. Gupta at the IIT Kanpur, India. I am interested in the dynamics of flexible structures which are subjected to aero/hydrodynamic loading. Flexble structures, particluarly cables, find many engineering applications. This webpage gives an overview of different problems I am working on. Please have a look around, and let me know your thoughts as comments, suggestions, or simply emoticons if the keys aren't working :) 
 
