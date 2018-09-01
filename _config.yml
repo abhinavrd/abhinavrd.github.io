@@ -2,6 +2,8 @@ theme: jekyll-theme-midnight
 title: Abhinav Ravindra Dehadrai
 description: Applied Mechanics आणि बरंच काही ...
 headline: Abhinav 
-header: RG(https://www.researchgate.net/profile/Abhinav_Dehadrai)
-credits left: ResearchGate(https://www.researchgate.net/profile/Abhinav_Dehadrai)
-credits right: LinkedIn(https://www.linkedin.com/in/abhinav-dehadrai-014a6b13/)
+credits_left: ResearchGate(https://www.researchgate.net/profile/Abhinav_Dehadrai)
+credits_right: LinkedIn(https://www.linkedin.com/in/abhinav-dehadrai-014a6b13/)
+header_pages:
+  - readme.md
+  - RG(https://www.researchgate.net/profile/Abhinav_Dehadrai)
