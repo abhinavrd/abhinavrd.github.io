@@ -2,7 +2,7 @@
 
 I am a PhD student with Profs. [Ishan Sharma](ishans.in) and [Shakti S. Gupta](home.iitk.ac.in/~ssgupta) at the IIT Kanpur, India. I am interested in the dynamics of flexible structures which are subjected to aero/hydrodynamic loading. Flexble structures, particluarly cables, find many engineering applications. This webpage gives a brief overview of different problems I am working on. 
 
-Please have a look. Let me know your thoughts through comments, suggestions, or simply emoticons if the keys aren't working :) [I would love to hear from you!]{#contactinfo} 
+Please have a look. Let me know your thoughts through comments, suggestions, or simply emoticons if the keys aren't working :) [I would love to hear from you!](https://abhinavrd.github.io#markdown-header-eMail) 
 
 ---
 [phdthesis]: https://abhinavrd.github.io "under review"
