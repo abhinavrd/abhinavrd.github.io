@@ -22,8 +22,8 @@ The towing of a large, ring-shaped, underslung load attached by a heavy, flexibl
 
 Traveling cables are fundamental driving mechanisms in elevators, conveyor belts, automobile chain-drives, cableways, etc. In these, all or part of the cable is inclined to gravity. During operations the cable tends to oscillate transversely as it travels longitudinally. In this study, the cable is modeled as a linear elastic beam that resists bending moment and shear, and
 as an inextensible string which supports only tension. The dynamics of horizontally traveling (traveling direction normal to gravity) beams and strings is well studied. We investigate the influence of gravity on the stability of beams and strings which travel vertically, against gravity. 
-> Part A of my [PhD thesis][phdthesis], submitted August 2018, IIT Kanpur. 
-> - ASME Journal of computational and nonlinear dynamics, Vol. 13, August, 2018 ([Paper][http://computationalnonlinear.asmedigitalcollection.asme.org/article.aspx?articleID=2682793 "ASME J CND"])
+> Part B of my [PhD thesis][phdthesis], submitted August 2018, IIT Kanpur. 
+> * ASME Journal of computational and nonlinear dynamics, Vol. 13, August, 2018 ([Paper][mypaper2018])
 > * Advanced problems in mechanics (APM) 2014, St. Petersburg, Russia. (Talk)
 > * Indian society of theoretical and applied mechanics (ISTAM) 2014, Bangalore, India. (Talk)
 > * International congress on computational mechanics and simulation (ICCMS) 2012, Hyderbad, India. (Talk)
@@ -44,3 +44,4 @@ Sloshing refers to the motion of a liquid inside a container. It may be caused b
 
 [phdthesis]: https://abhinavrd.github.io "under review"
 [mtechthesis]: http://172.28.64.70:8080/jspui/handle/123456789/11952 "IIT Kanpur's repository"
+[mypaper2018]: http://computationalnonlinear.asmedigitalcollection.asme.org/article.aspx?articleID=2682793 "ASME J CND"
