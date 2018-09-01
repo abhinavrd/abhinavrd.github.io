@@ -30,5 +30,7 @@ as an inextensible string which supports only tension. The dynamics of horizonta
 Sloshing refers to the motion of a liquid inside a container. It may be caused by any disturbance of partially-filled liquid containers. This motion of the fluid is typically uncontrolled and hence affects the dynamics of the container in a non-trivial manner. Liquid propellants constitute the largest part of the total mass of many spacecrafts. Sloshing of liquid fuel in the fuel tanks affects the attitude dynamics of the spacecraft, specifically, it’s orientation and angular velocity. For example, in a partially-filled container, the oscillation of the liquid shifts the system’s center of mass. To understand this motion, we need to know how the oscillation of the fluid depends upon the motion of the container, forces acting on it and the shape of the container. An exact analytical understanding of sloshing is difficult, and even computations are not certainly straightforward. We approximate the motion of the fuel in it’s first mode by that of a spherical pendulum. The length and mass of pendulum are related to the amount of fuel remaining, while the spacecraft is modeled as a rigid body. To compare with a lab-scale experiment we, in fact, take the spacecraft to be suspended from a point on the Earth’s surface. 
 > [My Master's thesis, August 2010, IIT Kanpur.](http://172.28.64.70:8080/jspui/handle/123456789/11952)
 
+---
+
 ### eMail 
 * abhinavd @ iitk . ac . in
