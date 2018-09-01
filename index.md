@@ -11,7 +11,7 @@ Please have a look. <a href="#contactinfo" style="text-decoration:none">Email</a
 ## Towing cables 
 
 The towing of a large, ring-shaped, underslung load attached by a heavy, flexible cable is investigated. For surveying large areas in less time, a large ring-shaped water/mineral detector is suspended from a helicopter with the help of long cable. For optimal operation the ring-shaped detector should be in the horizontal plane, i.e. normal to gravity. The helicopter’s motion and aerodynamic forces affect the motion of the cable and the detector. Further, these forces may misalign the detector or even destabilize it during operating conditions. The dynamics of the cable and detector together as a system is investigated during hovering, forward and maneuvered flight conditions. 
-> [Part A of my PhD thesis, submitted August 2018, IIT Kanpur.][phdthesis] 
+> Part A of my [PhD thesis][phdthesis], submitted August 2018, IIT Kanpur. 
 > * Advanced problems in mechanics (APM) 2015, St. Petersburg, Russia. (Talk)
 > * Fluid-structure interactions and vortex dynamics in aerodynamics (HELIX 2015), Porquerolles Island, Hyeres, France. (Talk)
 > * European solid mechanics conference (ESMC) 2015, Madrid, Spain. (Talk)
@@ -22,8 +22,8 @@ The towing of a large, ring-shaped, underslung load attached by a heavy, flexibl
 
 Traveling cables are fundamental driving mechanisms in elevators, conveyor belts, automobile chain-drives, cableways, etc. In these, all or part of the cable is inclined to gravity. During operations the cable tends to oscillate transversely as it travels longitudinally. In this study, the cable is modeled as a linear elastic beam that resists bending moment and shear, and
 as an inextensible string which supports only tension. The dynamics of horizontally traveling (traveling direction normal to gravity) beams and strings is well studied. We investigate the influence of gravity on the stability of beams and strings which travel vertically, against gravity. 
-> [Part B of my PhD thesis, submitted August 2018, IIT Kanpur][phdthesis] 
-> - [ASME Journal of computational and nonlinear dynamics, Vol. 13, August, 2018](http://computationalnonlinear.asmedigitalcollection.asme.org/article.aspx?articleID=2682793 "ASME J CND") (Publication)
+> Part A of my [PhD thesis][phdthesis], submitted August 2018, IIT Kanpur. 
+> - ASME Journal of computational and nonlinear dynamics, Vol. 13, August, 2018 ([Paper][http://computationalnonlinear.asmedigitalcollection.asme.org/article.aspx?articleID=2682793 "ASME J CND"])
 > * Advanced problems in mechanics (APM) 2014, St. Petersburg, Russia. (Talk)
 > * Indian society of theoretical and applied mechanics (ISTAM) 2014, Bangalore, India. (Talk)
 > * International congress on computational mechanics and simulation (ICCMS) 2012, Hyderbad, India. (Talk)
