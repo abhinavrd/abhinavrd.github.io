@@ -4,38 +4,27 @@ I am a PhD student with Prof. Ishan Sharma and Prof. Shakti S. Gupta at the IIT 
 
 I would love to hear from you! 
 
-You can use the [editor on GitHub](https://github.com/abhinavrd/abhinavrd.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+---
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Towing cables
 
-### Markdown
+The towing of a large, ring-shaped, underslung load attached by a heavy, flexible cable is investigated. For surveying large areas in less time, a large ring-shaped water/mineral detector is suspended from a helicopter with the help of long cable. For optimal operation the ring-shaped detector should be in the horizontal plane, i.e. normal to gravity. The helicopter’s motion and aerodynamic forces affect the motion of the cable and the detector. Further, these forces may misalign the detector or even destabilize it during operating conditions. The dynamics of the cable and detector together as a system is investigated during hovering, forward and maneuvered flight conditions. 
+> [Part A of my PhD thesis, submitted August 2018, IIT Kanpur.][ "under review"]
+> * Advanced problems in mechanics (APM) 2015, St. Petersburg, Russia. (Talk)
+> * Fluid-structure interactions and vortex dynamics in aerodynamics (HELIX 2015), Porquerolles Island, Hyeres, France. (Talk)
+> * European solid mechanics conference (ESMC) 2015, Madrid, Spain. (Talk)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Traveling cables
 
-```markdown
-Syntax highlighted code block
+Traveling cables are fundamental driving mechanisms in elevators, conveyor belts, automobile chain-drives, cableways, etc. In these, all or part of the cable is inclined to gravity. During operations the cable tends to oscillate transversely as it travels longitudinally. In this study, the cable is modeled as a linear elastic beam that resists bending moment and shear, and
+as an inextensible string which supports only tension. The dynamics of horizontally traveling (traveling direction normal to gravity) beams and strings is well studied. We investigate the influence of gravity on the stability of beams and strings which travel vertically, against gravity. 
+> [Part B of my PhD thesis, submitted August 2018, IIT Kanpur][ "under review"] 
+> - [Journal publication.](http://computationalnonlinear.asmedigitalcollection.asme.org/article.aspx?articleID=2682793 "ASME J CND")
+> * Advanced problems in mechanics (APM) 2014, St. Petersburg, Russia. (Talk)
+> * Indian society of theoretical and applied mechanics (ICTAM) 2014, Bangalore, India. (Talk)
+> * International conference on computational mechanics (ICCMS) 2012, Hyderbad, India. (Talk)
 
-# Header 1
-## Header 2
-### Header 3
+### Fuel sloshing
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/abhinavrd/abhinavrd.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Sloshing refers to the motion of a liquid inside a container. It may be caused by any disturbance of partially-filled liquid containers. This motion of the fluid is typically uncontrolled and hence affects the dynamics of the container in a non-trivial manner. Liquid propellants constitute the largest part of the total mass of many spacecrafts. Sloshing of liquid fuel in the fuel tanks affects the attitude dynamics of the spacecraft, specifically, it’s orientation and angular velocity. For example, in a partially-filled container, the oscillation of the liquid shifts the system’s center of mass. To understand this motion, we need to know how the oscillation of the fluid depends upon the motion of the container, forces acting on it and the shape of the container. An exact analytical understanding of sloshing is difficult, and even computations are not certainly straightforward. We approximate the motion of the fuel in it’s first mode by that of a spherical pendulum. The length and mass of pendulum are related to the amount of fuel remaining, while the spacecraft is modeled as a rigid body. To compare with a lab-scale experiment we, in fact, take the spacecraft to be suspended from a point on the Earth’s surface. 
+> [My Master's thesis, August 2010, IIT Kanpur.](http://172.28.64.70:8080/jspui/handle/123456789/11952)
