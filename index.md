@@ -1,4 +1,8 @@
-## Welcome to GitHub Pages
+## नमस्कार | Namaskaar
+
+I am a PhD student with Prof. Ishan Sharma and Prof. Shakti S. Gupta at the IIT Kanpur, India. I am interested in the dynamics of flexible structures which are subjected to aero/hydrodynamic loading. These are found in many engineering applications. This webpage gives an overview of different problems I am working on. Please have a look around, and let me know your thoughts as comments, suggestions, or simply emoticons if the keys aren't working :) 
+
+I would love to hear from you! 
 
 You can use the [editor on GitHub](https://github.com/abhinavrd/abhinavrd.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
