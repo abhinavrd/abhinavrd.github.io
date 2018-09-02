@@ -31,14 +31,14 @@ as an inextensible string which supports only tension. The dynamics of horizonta
 
 ### Fuel sloshing 
 
-Sloshing refers to the motion of a liquid inside a container. It may be caused by any disturbance of partially-filled liquid containers. This motion of the fluid is typically uncontrolled and hence affects the dynamics of the container in a non-trivial manner. Liquid propellants constitute the largest part of the total mass of many spacecrafts. Sloshing of liquid fuel in the fuel tanks affects the attitude dynamics of the spacecraft, specifically, its orientation and angular velocity. For example, in a partially-filled container, the oscillation of the liquid shifts the system’s center of mass. To understand this motion, we need to know how the oscillation of the fluid depends upon the motion of the container, forces acting on it and the shape of the container. An exact analytical understanding of sloshing is difficult, and even computations are not certainly straightforward. We approximate the motion of the fuel in its first mode by that of a spherical pendulum.<a id="course"> </a>The length and mass of the pendulum are related to the amount of fuel remaining, while the spacecraft is modeled as a rigid body. To compare with a lab-scale experiment we, in fact, take the spacecraft to be suspended from a point on the Earth’s surface. 
+Sloshing refers to the motion of a liquid inside a container. It may be caused by any disturbance of partially-filled liquid containers. This motion of the fluid is typically uncontrolled and hence affects the dynamics of the container in a non-trivial manner. Liquid propellants constitute the largest part of the total mass of many spacecrafts. Sloshing of liquid fuel in the fuel tanks affects the attitude dynamics of the spacecraft, specifically, its orientation and angular velocity. For example, in a partially-filled container, the oscillation of the liquid shifts the system’s center of mass. To understand this motion, we need to know how the oscillation of the fluid depends upon the motion of the container, forces acting on it and the shape of the container. An exact analytical understanding of sloshing is difficult, and even computations are not certainly straightforward. We approximate the motion of the fuel in its first mode by that of a spherical pendulum. The length and mass of the pendulum are related to the amount of fuel remaining, while the spacecraft is modeled as a rigid body. To compare with a lab-scale experiment we, in fact, take the spacecraft to be suspended from a point on the Earth’s surface. <a id="course"> </a>
 > My <a href="http://172.28.64.70:8080/jspui/handle/123456789/11952" style="text-decoration:none" target="_blank">Master's thesis</a>, August 2010, IIT Kanpur.
 
 ---
 
-## Relevant Courses and TA/Tutoring <a id="education"> </a>
+## Relevant Courses and TA/Tutoring 
 
-Dynamics and vibrations,  Continuum mechanics,  Vibrations of continuous systems, Applied mathematics, Asymptotic and Perturbation methods, Spectral methods for partial differential equations, Numerical solutions to integral equations, Nonlinear dynamics, Theory of elasticity, Mechanics of solids, and Theory of machines and mechanisms. 
+Dynamics and vibrations,  Continuum mechanics,  Vibrations of continuous systems, Applied mathematics, Asymptotic and Perturbation methods, Spectral methods for partial differential equations,<a id="education"> </a>Numerical solutions to integral equations, Nonlinear dynamics, Theory of elasticity, Mechanics of solids, and Theory of machines and mechanisms. 
 
 ---
 
@@ -56,13 +56,17 @@ Dynamics and vibrations,  Continuum mechanics,  Vibrations of continuous systems
 
   Title: _Modeling of liquid Fuel Sloshing in Fuel Tanks of Spacecraft_
   
-  Adviser: Prof. Ishan Sharma <a id="contactinfo" >  </a> 
+  Adviser: Prof. Ishan Sharma  
   
   Solid Mechanics & Design, Department of Mechanical Engineering, IIT Kanpur, India. 
   
 * BE, June 2006, Avg 56.93%
 
   Department of Mechanical Engineering, Yeshwantrao Chavan College of Engineering, RTM Nagpur University, India.
+<a id="contactinfo" >  </a>
+---
 
 ## eMail 
 > abhinavd @ iitk . ac . in
+
+***
