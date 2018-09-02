@@ -1,10 +1,14 @@
 ## नमस्कार | Namaskāra | Hello
 
-I am a PhD student with Profs. [Ishan Sharma](https://ishans.in) and [Shakti S. Gupta](https://home.iitk.ac.in/~ssgupta) at the IIT Kanpur, India. I am interested in the dynamics of flexible structures which are subjected to aero/hydrodynamic loading. Flexble structures, particluarly cables, find many engineering applications. This webpage gives a brief overview of different problems I am working on. 
+I am a PhD student with Profs. [Ishan Sharma](https://ishans.in) and [Shakti S. Gupta](https://home.iitk.ac.in/~ssgupta) at the IIT Kanpur, India. My <a href="#research" style="text-decoration:none">research</a> interest is Applied Mechanics, especially dynamics and stability of flexible structures. Flexible structures, particluarly cables, which are subjected to aero/hydrodynamic loading find many applications in MEchanical & Aerospace Engineering. During my graduate studies, I have taken <a href="#course" style="text-decoration:none">courses</a> in Mechanics and Mathematics, and attempted to develop a scientiﬁc attitude to research. This webpage gives a brief overview of different problems I am working on. 
+
+In my <a href="#mtechthesis" style="text-decoration:none">MTech</a>, I did theoretical modelling and experiments of fuel sloshing in spacecraft. It was an inverse problem  in  rigid-body  dynamics. Our  model  established, to some extent, the relation between the fuel remaining and the deviation of spacecraft’s attitudinal motion from its predicted rigid-body motion. In my PhD, initially, I did theoretical modeling of a <a href="#traveling" style="text-decoration:none">traveling ﬂexible cable</a> and solved its governing equation  using  Spectral Element (SE), as well as Finite Element (FE) techniques. This  problem  was in  the  context  of  the  stability  of  tethered aerostats (blimps).  As a part of my PhD, I have worked on the dynamics of <a href="#towing" style="text-decoration:none">ﬂexible cable towing</a> an underslung loads in a helicopter, where the cable was modeled using geometrically exact (GE) beam theory. This problem has application to mineral sensing wherein large mineral sensors towed by helicopters are utilized. 
 
 Please have a look. <a href="#contactinfo" style="text-decoration:none">Email</a> your thoughts through comments, suggestions, or simply emoticons if the keys aren't working :) I would love to hear from you!
 
 ---
+
+<a id="research"> </a>
 
 ## Research
 
@@ -38,6 +42,16 @@ Sloshing refers to the motion of a liquid inside a container. It may be caused b
 > My [Master's thesis][mtechthesis], August 2010, IIT Kanpur.
 
 ---
+
+<a id="course"> </a>
+
+## Relevant Courses and TA/Tutoring
+
+Dynamics and vibrations,  Continuum mechanics,  Vibrations of continuous systems, Applied mathematics, Asymptotic and Perturbation methods, Spectral methods for partial differential equations, Numerical solutions to integral equations, Nonlinear dynamics, Theory of elasticity, Mechanics of solids, and Theory of machines and mechanisms. 
+
+---
+
+<a id="education"> </a>
 
 ## Education
 
