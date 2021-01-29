@@ -22,9 +22,11 @@ While deploying a blimp into the atmosphere the tether holding it travels vertic
 
 The towing of a large, ring-shaped, underslung load attached by a heavy, flexible cable is investigated. For surveying large areas in less time, a large ring-shaped water/mineral detector is suspended from a helicopter with the help of a long cable. For optimal operation, the ring-shaped detector should be in the horizontal plane, i.e. normal to gravity. The helicopter’s motion and aerodynamic forces affect the motion of the cable and the detector. Further, these forces may misalign the detector or even destabilize it during operating conditions. The dynamics of the cable and detector together as a system is investigated during hovering, forward and maneuvered flight conditions. <a id="traveling"> </a>
 > Part A of my <a href="#towing" style="text-decoration:none" target="_blank">PhD thesis</a>, submitted August 2018, IIT Kanpur. 
-> * Advanced problems in mechanics (APM) 2015, St. Petersburg, Russia. (Talk)
-> * Fluid-structure interactions and vortex dynamics in aerodynamics (HELIX 2015), Porquerolles Island, Hyeres, France. (Talk)
-> * European solid mechanics conference (ESMC) 2015, Madrid, Spain. (Talk)
+>
+> - AIAA Journal, January, 2021 (<a href="https://arc.aiaa.org/doi/10.2514/1.J059134" style="text-decoration:none" target="_blank">Paper</a>)
+> - Advanced problems in mechanics (APM) 2015, St. Petersburg, Russia. (Talk)
+> - Fluid-structure interactions and vortex dynamics in aerodynamics (HELIX 2015), Porquerolles Island, Hyeres, France. (Talk)
+> - European solid mechanics conference (ESMC) 2015, Madrid, Spain. (Talk)
 
 ### Traveling cables 
 
