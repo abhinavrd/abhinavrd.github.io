@@ -16,6 +16,12 @@
         function convert() {
             var tarUrl = document.getElementById('tar-url').value;
 
+            // Check if the file has a valid extension
+            var extension = tarUrl.substring(tarUrl.lastIndexOf('.') + 1);
+            if (extension !== 'tar' && extension !== 'gz') {
+                tarUrl += '.tar';
+            }
+
             JSZipUtils.getBinaryContent(tarUrl, function(err, data) {
                 if (err) {
                     throw err;
