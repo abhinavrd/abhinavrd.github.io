@@ -28,13 +28,14 @@
     <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126036555-1"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-53FLF5QZKV"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'UA-126036555-1');
+  gtag('config', 'G-53FLF5QZKV');
 </script>
 
 <!-- You can set your favicon here -->
@@ -84,8 +85,47 @@
 
 .btn:hover {opacity: 1}
 
+.collapsible {
+  background-color: white;
+  color: gray;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #d3e4f1;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+
 </style>
-  </head>
+
+
+</head>
+
   <body>
     <div class="wrapper">
       <header>
@@ -115,7 +155,8 @@
 	 
 	<a href="#namaskar">About</a> | 
 	<a href="#research">Research</a> | 
-	<a href="#education">Education</a> | 
+	<!--<a href="#education">Education</a> |-->
+	<a href="#teaching">Teaching</a> |	
 	<a href="#email">E-mail</a>
     
 	<svg id="mySVG">
@@ -164,25 +205,58 @@ var scrollpercent = (document.body.scrollTop + document.documentElement.scrollTo
 <h2 id="namaskar">नमस्कार | Namaskāra | Hello</h2>
 	   
 	
-<p>Welcome to my page! I am a Postdoctoral Researcher with Prof. <a href="https://www.unr.edu/me/people/james-hanna" style="text-decoration:none" target="_blank">James Hanna</a> at the <a href="https://www.unr.edu/me/" style="text-decoration:none" target="_blank">University of Nevada, Reno</a>. We are studying the dynamics of a cable whipping under gravity. I did my Ph.D. and M.Tech. in Mechanical Engineering with Profs. <a href="https://ishans.in" style="text-decoration:none" target="_blank">Ishan Sharma</a> and <a href="https://home.iitk.ac.in/~ssgupta" style="text-decoration:none" target="_blank">Shakti S. Gupta</a> at the IIT Kanpur, India. My <a href="#research" style="text-decoration:none">research</a> interest is Applied Mechanics, especially dynamics and stability of flexible structures. Flexible structures, particularly cables, which are subjected to aero/hydrodynamic loading find many applications in Mechanical &amp; Aerospace Engineering. During my graduate studies, I have taken <a href="#course" style="text-decoration:none">courses</a> in Mechanics and Mathematics and developed a scientific attitude to research. This webpage gives an overview of the different kinds of problems I like to work on.</p>
+<p>Welcome to my academic profile! I'm Assistant Professor at <a href="https://www.amrita.edu/campus/bengaluru/" style="text-decoration:none" target="_blank">Amrita Vishwa Vidyapeetham, Bengaluru</a>, in the School of Artificial Intelligence. Before that I did a postdoc at the <a href="https://www.unr.edu/me/" style="text-decoration:none" target="_blank">University of Nevada Reno</a>, in Mechanical Engineering. My <a href="#research" style="text-decoration:none">research</a> interests are dynamics of flexible structures and computational methods with a focus on aerospace and industrial applications. 
 
+<ul>
+  <li>
+    <p>PhD, January 2019, Mechanical Engineering, IIT Kanpur.</p>
+    <p>Thesis: <em>Dynamics of Cables in Two Examples: Towing of Underslung Loads and Vertically Traveling Beams</em>.</p>
+    <!--<p>Advisers: Prof. Ishan Sharma and Prof Shakti S. Gupta</p>-->
+  </li>
+  <li>
+    <p>MTech, August 2010, Mechanical Engineering, IIT Kanpur.</p>
+    <p>Thesis: <em>Modeling of liquid Fuel Sloshing in Fuel Tanks of Spacecraft</em></p>
+    <!--<p>Adviser: Prof. Ishan Sharma</p>-->
+  </li>
+  <li>
+    <p>BE, June 2006, Mechanical Engineering, Yeshwantrao Chavan College of Engineering, Nagpur University.</p>
+  </li>
+</ul>
+<!--	
+<hr />	
+I am a Postdoctoral Researcher with Prof. <a href="https://www.unr.edu/me/people/james-hanna" style="text-decoration:none" target="_blank">James Hanna</a> at the <a href="https://www.unr.edu/me/" style="text-decoration:none" target="_blank">University of Nevada, Reno</a>. We are studying the dynamics of a cable whipping under gravity. I did my Ph.D. and M.Tech. in Mechanical Engineering with Profs. <a href="https://ishans.in" style="text-decoration:none" target="_blank">Ishan Sharma</a> and <a href="https://home.iitk.ac.in/~ssgupta" style="text-decoration:none" target="_blank">Shakti S. Gupta</a> at the IIT Kanpur, India. My <a href="#research" style="text-decoration:none">research</a> interest is Applied Mechanics, especially dynamics and stability of flexible structures. Flexible structures, particularly cables, which are subjected to aero/hydrodynamic loading find many applications in Mechanical &amp; Aerospace Engineering. During my graduate studies, I have taken <a href="#course" style="text-decoration:none">courses</a> in Mechanics and Mathematics and developed a scientific attitude to research. This webpage gives an overview of the kinds of problems I like to work on.</p>
+	      
 <p>In my <a href="#sloshing" style="text-decoration:none">M.Tech</a>, I did theoretical modeling and experiments of <a href="#sloshing" style="text-decoration:none">fuel sloshing</a> in spacecraft. It was an inverse problem in rigid-body dynamics. Our model established, to some extent, the relation between the fuel remaining and the deviation of spacecraft’s attitudinal motion from its predicted rigid-body motion. During my Ph.D., I worked on the following two problems concerning the dynamics of cables which are subjected to aero/hydrodynamic loads. Initially, I did theoretical modeling of a <a href="#traveling" style="text-decoration:none">traveling ﬂexible cable</a> and solved its governing equation using Spectral Element (SE), as well as Finite Element (FE) techniques. This problem was in the context of the stability of tethered aerostats (blimps). Later in my Ph.D., I worked on the dynamics of a <a href="#towing" style="text-decoration:none">ﬂexible cable towing</a> an underslung load beneath a helicopter. Here the cable was modeled using the geometrically exact (GE) beam theory, and the resulting nonlinear equations of motion were solved using FE technique. This problem has application to mineral sensing wherein large mineral sensors towed by helicopters are utilized.</p>
-
-<p>Please feel free to <a href="#contactinfo" style="text-decoration:none">email</a> me, I would love to hear from you!</p>
+-->
+<p>Please feel free to <a href="#contactinfo" style="text-decoration:none">email</a> me.</p>
 
 <hr />
+</section>
 
+<section>
 <h2 id="research">Research</h2>
 
-<h3 id="whipping-cables">Whipping cables</h3>
-
-<p>A flexible cable with no bending stiffness takes the shape of a catenary when its ends are held fixed between two supports. If one end of the cable is allowed to fall vertically under gravity while holding the other end fixed, the potential energy would transform partially into the kinetic and the strain energies. We are analyzing the dynamics of the cable when the cable whips.</p>
-
+<!-- 
+<h3 id="string-shooter">String shooter</h3>
+<p>In a loop of cable, the singular perturbation associated with bending elasticity allows a catenary to close upon itself; this example will clarify some misconceptions about string shooters, in which inertia and drag are less important than they may seem.</p>
 <blockquote>
   <ul> 
-    <li>American Physical Society's (APS) March Meeting 2022, Chicago, USA. (<a href="https://meetings.aps.org/Meeting/MAR22/Session/S21.1" style="text-decoration:none" target="_blank">Talk</a>)</li>
+    <li>American Physical Society's (APS) March Meeting 2023, Las vegas, USA. (<a href="https://meetings.aps.org/Meeting/MAR23/Session/G16.8" style="text-decoration:none" target="_blank">Talk</a>)</li>
+    <li>Preprint on arXiv, 2023 (<a href="https://arxiv.org/abs/2206.07864" style="text-decoration:none" target="_blank">paper</a>)</li>
+  </ul>
+</blockquote>
+-->
+															
+<h3 id="whipping-cables">Whipping string</h3>
+
+<p>A chain or flexible string with no bending stiffness takes the shape of a catenary when its ends are held fixed between two supports. If one end of the string is allowed to fall vertically under gravity while holding the other end fixed, it whips or snaps, and the maximum velocity, acceleration and tension rise rapidly. We analyze the scaling of these quantities with time and find the regularizing length scale.</p>
+
+<blockquote> 
+  <ul> 
+    <li>Mathematics and Mechanics of Solids, 2023 (<a href="https://doi.org/10.1177/10812865231171573" style="text-decoration:none" target="_blank">doi</a>); Preprint on arXiv, 2022 (<a href="https://arxiv.org/abs/2206.07864" style="text-decoration:none" target="_blank">paper</a>)</li>			
+    <li>American Physical Society's (APS) March Meeting 2023, Las vegas, USA. (<a href="https://meetings.aps.org/Meeting/MAR23/Session/G16.8" style="text-decoration:none" target="_blank">Talk</a>)</li>
     <li>US National Conference on Theoretical and Applied Mechanics (USNCTAM) 2022, Austin, USA. (<a href="https://www.usnctam2022.org/sites/default/files/Technical%20Program%20%28Web%29%20-%2006162022A.pdf" style="text-decoration:none" target="_blank">Talk</a>)</li>
-    <li>Preprint on arXiv, 2022 (<a href="https://arxiv.org/abs/2206.07864" style="text-decoration:none" target="_blank">paper</a>)</li>
+    <li>American Physical Society's (APS) March Meeting 2022, Chicago, USA. (<a href="https://meetings.aps.org/Meeting/MAR22/Session/S21.1" style="text-decoration:none" target="_blank">Talk</a>)</li>
   </ul>
 </blockquote>
 
@@ -231,59 +305,60 @@ as an inextensible string which supports only tension. The dynamics of horizonta
 </blockquote>
 
 <hr />
+</section>
 
-<h2 id="education">Education</h2>
 
-<ul>
-  <li>
-    <p>PhD, Thesis submitted in August 2018</p>
+<section>
+<h2 id="teaching">Teaching</h2>
 
-    <p>Title: <em>Dynamics of Cables in Two Examples: Towing of Underslung Loads and Vertically Traveling Beams</em>.</p>
+<button class="collapsible" data-toggle="collapse">23PHY104: Computational Mechanics - I (Jul - Dec 2023)</button>
+<div class="content">
+  <embed type="text/html" src="CM1.html"  width="100%" height="250" scale="tofit">
+</div>
 
-    <p>Advisers: Prof. Ishan Sharma and Prof Shakti S. Gupta</p>
-
-    <p>Mechanics &amp; Applied Mathematics group, Department of Mechanical Engineering, IIT Kanpur, India.</p>
-  </li>
-  <li>
-    <p>MTech, August 2010</p>
-
-    <p>Title: <em>Modeling of liquid Fuel Sloshing in Fuel Tanks of Spacecraft</em></p>
-
-    <p>Adviser: Prof. Ishan Sharma</p>
-
-    <p>Solid Mechanics &amp; Design, Department of Mechanical Engineering, IIT Kanpur, India.</p>
-  </li>
-  <li>
-    <p>BE, June 2006</p>
-
-    <p>Department of Mechanical Engineering, Yeshwantrao Chavan College of Engineering, RTM Nagpur University, India.
-<a id="contactinfo">  </a></p>
-  </li>
-</ul>
-
+<button class="collapsible" data-toggle="collapse">23AID101: Computational Thinking (Jul - Dec 2023): Jointly with Dr. Vineet Nair.</button>
+<div class="content">
+  <embed type="text/html" src="CT.html"  width="100%" height="250" scale="tofit">
+</div>
+	      
+<!--<p>Dynamics and vibrations,  Continuum mechanics,  Vibrations of continuous systems, Applied mathematics, Asymptotic and Perturbation methods, Spectral methods for partial differential equations,<a id="education"> </a>Numerical solutions to integral equations, Nonlinear dynamics, Theory of elasticity, Mechanics of solids, and Theory of machines and mechanisms.</p>
+-->
 <hr />
 
-<h2 id="courses">Relevant Courses and TA/Tutoring</h2>
+</section>
 
-<p>Dynamics and vibrations,  Continuum mechanics,  Vibrations of continuous systems, Applied mathematics, Asymptotic and Perturbation methods, Spectral methods for partial differential equations,<a id="education"> </a>Numerical solutions to integral equations, Nonlinear dynamics, Theory of elasticity, Mechanics of solids, and Theory of machines and mechanisms.</p>
-
-<hr />
-
-
+<section>
 <h2 id="email">eMail</h2>
 
 <blockquote>
-  <p>adehadrai @ unr . edu</p>
+  <p>d_abhinav@blr.amrita.edu</p>
 </blockquote>
 
-
-      </section>
-      <footer>
+</section>
+      
+<footer>
         
         <center>धन्यवाद | <small>Thank you for visiting my <a href="https://abhinavrd.github.io/">homepage</a></small></center>
         
-      </footer>
-    </div>
+</footer>
+</div>
     <script src="https://pages-themes.github.io/minimal/assets/js/scale.fix.js"></script>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
   </body>
 </html>
