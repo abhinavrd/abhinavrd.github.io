@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tar to HTML Converter</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.2.2/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip-utils/0.0.2/jszip-utils.min.js"></script>
+</head>
+<body>
+    <label for="tar-url">Enter URL of .tar file:</label>
+    <input type="text" id="tar-url">
+    <button onclick="convert()">Convert to HTML</button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    <script>
+        function convert() {
+            var tarUrl = document.getElementById('tar-url').value;
+
+            // Check if the file has a valid extension
+            var extension = tarUrl.substring(tarUrl.lastIndexOf('.') + 1);
+            if (extension !== 'tar' && extension !== 'gz') {
+                tarUrl += '.tar';
+            }
+
+            JSZipUtils.getBinaryContent(tarUrl, function(err, data) {
+                if (err) {
+                    throw err;
+                }
+
+                JSZip.loadAsync(data).then(function(zip) {
+                    var texFile = '';
+                    zip.forEach(function(relativePath, zipEntry) {
+                        if (relativePath.endsWith('.tex')) {
+                            texFile = zipEntry.name;
+                        }
+                    });
+
+                    if (texFile === '') {
+                        throw 'Could not find TeX file in archive.';
+                    }
+
+                    zip.file(texFile).async('string').then(function(texContent) {
+                        var htmlContent = '<!DOCTYPE html><html><head><meta charset="UTF-8"><title>Converted TeX to HTML</title><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script></head><body>' + texContent + '</body></html>';
+
+                        var newWindow = window.open();
+                        newWindow.document.write(htmlContent);
+                        newWindow.document.close();
+
+                        MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+                    });
+                });
+            });
+        }
+    </script>
+</body>
+</html>
