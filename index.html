@@ -134,18 +134,17 @@
 	<h2><a href="https://abhinavrd.github.io/"><span class="notranslate">Abhinav R Dehadrai</span></a></h2>
         
 	<div class="container">
-   		<img src="logo.jpg" alt="Logo" width="250" onmousedown="alert(' '); return false;"/>
-  		<div class="overlay">
+   		<img src="logo.jpg" alt="Avatar" width="100" style="border-radius:100%" onmousedown="alert(' '); return false;"/>
+  		<!--<div class="overlay">
   			<img src="logo2.jpg" alt="Logo" width="250" onmousedown="alert(' '); return false;"/>
 			<p>At Lake Tahoe</>
-  		</div>
+  		</div>-->
 	</div>
                 
 
-        <h4>Applied Mechanics आणि बरंच काही ...</h4> 
+        <p>Mechanics आणि बरंच काही ...</p> 
 	
-
-        
+	    
         
         <button class="btn"><a href="https://www.linkedin.com/in/abhinav-dehadrai/" target="_blank">LinkedIn</a></button>
         <button class="btn"><a href="https://www.researchgate.net/profile/Abhinav-Dehadrai-2" target="_blank">ResearchGate</a></button>
@@ -153,7 +152,7 @@
 
 	<p></p> 
 	 
-	<a href="#namaskar">About</a> | 
+	<!--<a href="#namaskar">About</a> | -->
 	<a href="#research">Research</a> | 
 	<!--<a href="#education">Education</a> |-->
 	<a href="#teaching">Teaching</a> |	
@@ -162,6 +161,7 @@
 	<svg id="mySVG">
   	<path fill="lightgray" stroke="orange" stroke-width="3" id="triangle" d="M 20 10 q 115 30 230 0 " />
 	</svg>
+
 
 	<div id="google_translate_element" font-size= 10px"></div>
 
@@ -175,17 +175,17 @@
 
 		
 <script>
-// Get the id of the <path> element and the length of <path>
+<!--Get the id of the <path> element and the length of <path>-->
 var triangle = document.getElementById("triangle");
 var length = triangle.getTotalLength();
 
-// The start position of the drawing
+<!--The start position of the drawing-->
 triangle.style.strokeDasharray = length;
 
-// Hide the triangle by offsetting dash. Remove this line to show the triangle before scroll draw
+<!--Hide the triangle by offsetting dash. Remove this line to show the triangle before scroll draw-->
 triangle.style.strokeDashoffset = length;
 
-// Find scroll percentage on scroll (using cross-browser properties), and offset dash same amount as percentage scrolled
+<!--Find scroll percentage on scroll (using cross-browser properties), and offset dash same amount as percentage scrolled-->
 window.addEventListener("scroll", myFunction);
 
 function myFunction() {
@@ -193,12 +193,18 @@ var scrollpercent = (document.body.scrollTop + document.documentElement.scrollTo
 
   var draw = length * scrollpercent;
   
-  // Reverse the drawing (when scrolling upwards)
+  <!--Reverse the drawing (when scrolling upwards)-->
   triangle.style.strokeDashoffset = length - draw;
 }
 </script>	
-
 	</center>
+<small> 
+<strong>Education | Mechanical Engineering</strong><br>
+PhD, Jan 2019, <a href="https://www.iitk.ac.in/me" style="text-decoration:none" target="_blank">IIT, Kanpur</a>.<br>
+MTech, Aug 2010, <a href="https://www.iitk.ac.in/me" style="text-decoration:none" target="_blank">IIT, Kanpur</a>.<br>
+BE, Jun 2006, <a href="https://www.ycce.edu/mechanical-engineering.php" style="text-decoration:none" target="_blank">YCCE, Nagpur University</a>.<br>
+</small> 
+<br>
       </header>
       <section>
 
@@ -207,21 +213,6 @@ var scrollpercent = (document.body.scrollTop + document.documentElement.scrollTo
 	
 <p>Welcome to my academic profile! I'm Assistant Professor at <a href="https://www.amrita.edu/campus/bengaluru/" style="text-decoration:none" target="_blank">Amrita Vishwa Vidyapeetham, Bengaluru</a>, in the School of Artificial Intelligence. Before that I did a postdoc at the <a href="https://www.unr.edu/me/" style="text-decoration:none" target="_blank">University of Nevada Reno</a>, in Mechanical Engineering. My <a href="#research" style="text-decoration:none">research</a> interests are dynamics of flexible structures and computational methods with a focus on aerospace and industrial applications. 
 
-<ul>
-  <li>
-    <p>PhD, January 2019, Mechanical Engineering, IIT Kanpur.</p>
-    <p>Thesis: <em>Dynamics of Cables in Two Examples: Towing of Underslung Loads and Vertically Traveling Beams</em>.</p>
-    <!--<p>Advisers: Prof. Ishan Sharma and Prof Shakti S. Gupta</p>-->
-  </li>
-  <li>
-    <p>MTech, August 2010, Mechanical Engineering, IIT Kanpur.</p>
-    <p>Thesis: <em>Modeling of liquid Fuel Sloshing in Fuel Tanks of Spacecraft</em></p>
-    <!--<p>Adviser: Prof. Ishan Sharma</p>-->
-  </li>
-  <li>
-    <p>BE, June 2006, Mechanical Engineering, Yeshwantrao Chavan College of Engineering, Nagpur University.</p>
-  </li>
-</ul>
 <!--	
 <hr />	
 I am a Postdoctoral Researcher with Prof. <a href="https://www.unr.edu/me/people/james-hanna" style="text-decoration:none" target="_blank">James Hanna</a> at the <a href="https://www.unr.edu/me/" style="text-decoration:none" target="_blank">University of Nevada, Reno</a>. We are studying the dynamics of a cable whipping under gravity. I did my Ph.D. and M.Tech. in Mechanical Engineering with Profs. <a href="https://ishans.in" style="text-decoration:none" target="_blank">Ishan Sharma</a> and <a href="https://home.iitk.ac.in/~ssgupta" style="text-decoration:none" target="_blank">Shakti S. Gupta</a> at the IIT Kanpur, India. My <a href="#research" style="text-decoration:none">research</a> interest is Applied Mechanics, especially dynamics and stability of flexible structures. Flexible structures, particularly cables, which are subjected to aero/hydrodynamic loading find many applications in Mechanical &amp; Aerospace Engineering. During my graduate studies, I have taken <a href="#course" style="text-decoration:none">courses</a> in Mechanics and Mathematics and developed a scientific attitude to research. This webpage gives an overview of the kinds of problems I like to work on.</p>
