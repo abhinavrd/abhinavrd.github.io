@@ -121,6 +121,18 @@
   background-color: #f1f1f1;
 }
 
+.badge {
+  background-color: #f1f1f1;
+  color: white;
+  padding: 4px 4px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 12px;
+  margin: 0.5px 0.5px;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
 </style>
 
 
@@ -146,33 +158,31 @@
 	
 	    
         
-        <button class="btn"><a href="https://www.linkedin.com/in/abhinav-dehadrai/" target="_blank">LinkedIn</a></button>
-        <button class="btn"><a href="https://www.researchgate.net/profile/Abhinav-Dehadrai-2" target="_blank">ResearchGate</a></button>
-        <button class="btn"><a href="https://scholar.google.com/citations?user=DJ15ah0AAAAJ" target="_blank">GScholar</a></button>
-
-	<p></p> 
+        
 	 
 	<!--<a href="#namaskar">About</a> | -->
-	<a href="#research">Research</a> | 
+	<button class="btn"><a href="#research">Research</a></button> 
 	<!--<a href="#education">Education</a> |-->
-	<a href="#teaching">Teaching</a> |	
-	<a href="#email">E-mail</a>
+	<button class="btn"><a href="#teaching">Teaching</a></button>	
+	<button class="btn"><a href="#email">E-mail</a></button>
+
+	<p></p>
+	<small> 
+	Education | Mechanical Engineering <br>
+	PhD, Jan 2019, <a href="https://www.iitk.ac.in/me" style="text-decoration:none" target="_blank">IIT Kanpur</a>.<br>
+	MTech, Aug 2010, <a href="https://www.iitk.ac.in/me" style="text-decoration:none" target="_blank">IIT Kanpur</a>.<br>
+	BE, Jun 2006, <a href="https://www.ycce.edu/mechanical-engineering.php" style="text-decoration:none" target="_blank">YCCE, Nagpur 	University</a>.<br>
+	</small> 
+	<p></p>
+
+	<span class="badge"><a href="https://www.linkedin.com/in/abhinav-dehadrai/" target="_blank">LinkedIn</a></span>
+        <span class="badge"><a href="https://www.researchgate.net/profile/Abhinav-Dehadrai-2" target="_blank">ResearchGate</a></span>
+        <span class="badge"><a href="https://scholar.google.com/citations?user=DJ15ah0AAAAJ" target="_blank">GScholar</a></span>
+	<br><br>
     
 	<svg id="mySVG">
   	<path fill="lightgray" stroke="orange" stroke-width="3" id="triangle" d="M 20 10 q 115 30 230 0 " />
 	</svg>
-
-
-	<div id="google_translate_element" font-size= 10px"></div>
-
-	<script type="text/javascript">
-	function googleTranslateElementInit() {
-  	new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 	'google_translate_element');
-	}
-	</script>
-
-	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
 		
 <script>
 <!--Get the id of the <path> element and the length of <path>-->
@@ -198,13 +208,6 @@ var scrollpercent = (document.body.scrollTop + document.documentElement.scrollTo
 }
 </script>	
 	</center>
-<small> 
-<strong>Education | Mechanical Engineering</strong><br>
-PhD, Jan 2019, <a href="https://www.iitk.ac.in/me" style="text-decoration:none" target="_blank">IIT, Kanpur</a>.<br>
-MTech, Aug 2010, <a href="https://www.iitk.ac.in/me" style="text-decoration:none" target="_blank">IIT, Kanpur</a>.<br>
-BE, Jun 2006, <a href="https://www.ycce.edu/mechanical-engineering.php" style="text-decoration:none" target="_blank">YCCE, Nagpur University</a>.<br>
-</small> 
-<br>
       </header>
       <section>
 
@@ -328,8 +331,19 @@ as an inextensible string which supports only tension. The dynamics of horizonta
 </section>
       
 <footer>
-        
-        <center>धन्यवाद | <small>Thank you for visiting my <a href="https://abhinavrd.github.io/">homepage</a></small></center>
+        <br><br>
+        <center>धन्यवाद | <small>Thank you for visiting my <a href="https://abhinavrd.github.io/">homepage</a></small>
+        <br><br>
+	<div id="google_translate_element" font-size= 10px"></div>
+
+	<script type="text/javascript">
+	function googleTranslateElementInit() {
+  	new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 	'google_translate_element');
+	}
+	</script>
+	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+	</center>
         
 </footer>
 </div>
