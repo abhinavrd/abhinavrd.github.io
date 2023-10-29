@@ -1,310 +1,328 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>Abhinav</title>
-<meta name="generator" content="Jekyll v3.9.0" />
-<meta property="og:title" content="Abhinav" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Applied Mechanics आणि बरंच काही ..." />
-<meta property="og:description" content="Applied Mechanics आणि बरंच काही ..." />
-<link rel="canonical" href="https://abhinavrd.github.io/" />
-<meta property="og:url" content="https://abhinavrd.github.io/" />
-<meta property="og:site_name" content="Abhinav" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Abhinav" />
-<script type="application/ld+json">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Begin Jekyll SEO tag v2.7.1 -->
+  <title>Abhinav</title>
+  <meta name="generator" content="Jekyll v3.9.0" />
+  <meta property="og:title" content="Abhinav" />
+  <meta property="og:locale" content="en_US" />
+  <meta name="description" content="Applied Mechanics आणि बरंच काही ..." />
+  <meta property="og:description" content="Applied Mechanics आणि बरंच काही ..." />
+  <link rel="canonical" href="https://abhinavrd.github.io/" />
+  <meta property="og:url" content="https://abhinavrd.github.io/" />
+  <meta property="og:site_name" content="Abhinav" />
+  <meta name="twitter:card" content="summary" />
+  <meta property="twitter:title" content="Abhinav" />
+  <script type="application/ld+json">
 {"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"logo.jpg"}},"description":"Applied Mechanics आणि बरंच काही ...","url":"https://abhinavrd.github.io/","@type":"WebSite","headline":"Minimal theme","name":"Abhinav","@context":"https://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
+  <!-- End Jekyll SEO tag -->
 
-    <link rel="stylesheet" href="style.css">
-    <!--[if lt IE 9]>
+  <link rel="stylesheet" href="style.css">
+  <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
-    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+  <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-53FLF5QZKV"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-53FLF5QZKV"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-53FLF5QZKV');
-</script>
+    gtag('config', 'G-53FLF5QZKV');
+  </script>
 
-<!-- You can set your favicon here -->
-<!-- link rel="shortcut icon" type="image/x-icon" href="https://pages-themes.github.io/minimal/favicon.ico" -->
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
+  <!-- You can set your favicon here -->
+  <!-- link rel="shortcut icon" type="image/x-icon" href="https://pages-themes.github.io/minimal/favicon.ico" -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
 
-<!-- end custom head snippets -->
+  <!-- end custom head snippets -->
 
-<style>
+  <style>
+    .btn {
+      background-color: #f8f8f8;
+      border: solid;
+      color: lightgray;
+      padding: 6px 6px;
+      text-align: center;
+      font-size: 13px;
+      margin: 0.5px 0.5px;
+      opacity: 0.8;
+      transition: 0.3s;
+      font-family: sans-serif;
+    }
 
-.btn {
-  background-color: #f8f8f8;
-  border: solid;
-  color: lightgray;
-  padding: 6px 6px;
-  text-align: center;
-  font-size: 13px;
-  margin: 0.5px 0.5px;
-  opacity: 0.8;
-  transition: 0.3s;
-  font-family: sans-serif;
-}
+    .btn:hover {
+      opacity: 1
+    }
 
-.btn:hover {opacity: 1}
+    .collapsible {
+      background-color: #f8f8f8;
+      font-family: sans-serif;
+      color: gray;
+      cursor: pointer;
+      padding: 5px;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 15px;
+    }
 
-.collapsible {
-  background-color: #f8f8f8;
-  font-family: sans-serif;
-  color: gray;
-  cursor: pointer;
-  padding: 5px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-}
+    .active,
+    .collapsible:hover {
+      background-color: #d3e4f1;
+    }
 
-.active, .collapsible:hover {
-  background-color: #d3e4f1;
-}
+    .collapsible:after {
+      content: '\002B';
+      color: #f8f8f8;
+      font-weight: bold;
+      float: right;
+      margin-left: 5px;
+      font-family: sans-serif;
+    }
 
-.collapsible:after {
-  content: '\002B';
-  color: #f8f8f8;
-  font-weight: bold;
-  float: right;
-  margin-left: 5px;
-  font-family: sans-serif;
-}
+    .active:after {
+      content: "\2212";
+    }
 
-.active:after {
-  content: "\2212";
-}
+    .content {
+      padding: 0 0px;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out;
+      background-color: #f8f8f8;
+      font-family: sans-serif;
+      color: gray;
+    }
 
-.content {
-  padding: 0 0px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: #f8f8f8;
-  font-family: sans-serif;
-  color: gray;
-}
-
-.badge {
-  background-color: #f1f1f1;
-  color: #f8f8f8;
-  padding: 4px 4px;
-  text-align: center;
-  border-radius: 5px;
-  font-size: 12px;
-  margin: 0.5px 0.5px;
-  opacity: 0.8;
-  transition: 0.3s;
-  font-family: sans-serif;
-}
-
-</style>
+    .badge {
+      background-color: #f1f1f1;
+      color: #f8f8f8;
+      padding: 4px 4px;
+      text-align: center;
+      border-radius: 5px;
+      font-size: 12px;
+      margin: 0.5px 0.5px;
+      opacity: 0.8;
+      transition: 0.3s;
+      font-family: sans-serif;
+    }
+  </style>
 
 
 </head>
 
-  <body>
-    <div class="wrapper">
-      <header>
-          
-        <center>
-	<h2><a href="https://abhinavrd.github.io/"><span class="notranslate">Abhinav R Dehadrai</span></a></h2>
-        
-	<!--<div class="container">-->
-   		<img src="logo.jpg" alt="Avatar" width="100" style="border-radius:100%" onmousedown="alert(' '); return false;"/>
-  		<!--<div class="overlay">
+<body>
+  <div class="wrapper">
+    <header>
+
+      <center>
+        <h2><a href="https://abhinavrd.github.io/"><span class="notranslate">Abhinav R Dehadrai</span></a></h2>
+
+        <!--<div class="container">-->
+        <img src="logo.jpg" alt="Avatar" width="100" style="border-radius:100%"
+          onmousedown="alert(' '); return false;" />
+        <!--<div class="overlay">
   			<img src="logo2.jpg" alt="Logo" width="250" onmousedown="alert(' '); return false;"/>
 			<p>At Lake Tahoe</>
   		</div>-->
-	<!--</div>-->
-                
+        <!--</div>-->
 
-        <p>Mechanics आणि बरंच काही ...</p> 
-	
-	    
-        
-        
-	 
-	<!--<a href="#namaskar">About</a> | -->
-	<button class="btn"><a href="#research">Research</a></button> 
-	<!--<a href="#education">Education</a> |-->
-	<button class="btn"><a href="#teaching">Teaching</a></button>	
-	<button class="btn"><a href="#email">E-mail</a></button>
 
-	<p></p>
-	<small> 
-	Education | Mechanical Engineering <br>
-	PhD, Jan 2019, <a href="https://www.iitk.ac.in/me" style="text-decoration:none" target="_blank">IIT Kanpur</a>.<br>
-	MTech, Aug 2010, <a href="https://www.iitk.ac.in/me" style="text-decoration:none" target="_blank">IIT Kanpur</a>.<br>
-	BE, Jun 2006, <a href="https://www.ycce.edu/mechanical-engineering.php" style="text-decoration:none" target="_blank">YCCE, Nagpur 	University</a>.<br>
-	</small> 
-	<p></p>
+        <p>Mechanics आणि बरंच काही ...</p>
 
-	<span class="badge"><a href="https://www.linkedin.com/in/abhinav-dehadrai/" target="_blank">LinkedIn</a></span>
-        <span class="badge"><a href="https://www.researchgate.net/profile/Abhinav-Dehadrai-2" target="_blank">ResearchGate</a></span>
-        <span class="badge"><a href="https://scholar.google.com/citations?user=DJ15ah0AAAAJ" target="_blank">GScholar</a></span>
-	<br><br>
-    
-	<svg id="mySVG">
-  	<path fill="lightgray" stroke="orange" stroke-width="3" id="triangle" d="M 20 10 q 115 30 230 0 " />
-	</svg>
-		
-<script>
-<!--Get the id of the <path> element and the length of <path>-->
-var triangle = document.getElementById("triangle");
-var length = triangle.getTotalLength();
 
-<!--The start position of the drawing-->
-triangle.style.strokeDasharray = length;
 
-<!--Hide the triangle by offsetting dash. Remove this line to show the triangle before scroll draw-->
-triangle.style.strokeDashoffset = length;
 
-<!--Find scroll percentage on scroll (using cross-browser properties), and offset dash same amount as percentage scrolled-->
-window.addEventListener("scroll", myFunction);
 
-function myFunction() {
-var scrollpercent = (document.body.scrollTop + document.documentElement.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight);
+        <!--<a href="#namaskar">About</a> | -->
+        <button class="btn"><a href="#research">Research</a></button>
+        <!--<a href="#education">Education</a> |-->
+        <button class="btn"><a href="#teaching">Teaching</a></button>
+        <button class="btn"><a href="#email">E-mail</a></button>
 
-  var draw = length * scrollpercent;
-  
-  <!--Reverse the drawing (when scrolling upwards)-->
-  triangle.style.strokeDashoffset = length - draw;
-}
-</script>	
-	</center>
-      </header>
-      <section>
+        <p></p>
+        <small>
+          Education | Mechanical Engineering <br>
+          PhD, Jan 2019, <a href="https://www.iitk.ac.in/me" style="text-decoration:none" target="_blank">IIT
+            Kanpur</a>.<br>
+          MTech, Aug 2010, <a href="https://www.iitk.ac.in/me" style="text-decoration:none" target="_blank">IIT
+            Kanpur</a>.<br>
+          BE, Jun 2006, <a href="https://www.ycce.edu/mechanical-engineering.php" style="text-decoration:none"
+            target="_blank">YCCE, Nagpur University</a>.<br>
+        </small>
+        <p></p>
 
-<h2 id="namaskar">नमस्कार | Namaskāra | Hello</h2>
-	   
-	
-<p>Welcome to my academic profile! I'm Assistant Professor at <a href="https://www.amrita.edu/campus/bengaluru/" style="text-decoration:none" target="_blank">Amrita Vishwa Vidyapeetham, Bengaluru</a>, in the School of Artificial Intelligence. Before that I did a postdoc at the <a href="https://www.unr.edu/me/" style="text-decoration:none" target="_blank">University of Nevada Reno</a>, in Mechanical Engineering. My <a href="#research" style="text-decoration:none">research</a> interests are dynamics of flexible structures and computational methods with a focus on aerospace and industrial applications. 
+        <span class="badge"><a href="https://www.linkedin.com/in/abhinav-dehadrai/" target="_blank">LinkedIn</a></span>
+        <span class="badge"><a href="https://www.researchgate.net/profile/Abhinav-Dehadrai-2"
+            target="_blank">ResearchGate</a></span>
+        <span class="badge"><a href="https://scholar.google.com/citations?user=DJ15ah0AAAAJ"
+            target="_blank">GScholar</a></span>
+        <br><br>
 
-<!--	
+        <svg id="mySVG">
+          <path fill="lightgray" stroke="orange" stroke-width="3" id="triangle" d="M 20 10 q 115 30 230 0 " />
+        </svg>
+
+        <script>
+          <!--Get the id of the <path> element and the length of <path>-->
+          var triangle = document.getElementById("triangle");
+          var length = triangle.getTotalLength();
+
+        < !--The start position of the drawing-- >
+            triangle.style.strokeDasharray = length;
+
+        < !--Hide the triangle by offsetting dash.Remove this line to show the triangle before scroll draw-- >
+            triangle.style.strokeDashoffset = length;
+
+        < !--Find scroll percentage on scroll(using cross - browser properties), and offset dash same amount as percentage scrolled-- >
+            window.addEventListener("scroll", myFunction);
+
+          function myFunction() {
+            var scrollpercent = (document.body.scrollTop + document.documentElement.scrollTop) /
+              (document.documentElement.scrollHeight - document.documentElement.clientHeight);
+
+            var draw = length * scrollpercent;
+
+        < !--Reverse the drawing(when scrolling upwards)-- >
+              triangle.style.strokeDashoffset = length - draw;
+          }
+        </script>
+      </center>
+    </header>
+
+    <section>
+
+      <h2 id="namaskar">नमस्कार | Namaskāra | Hello</h2>
+
+
+      <p>Welcome to my academic profile! I'm Assistant Professor at <a href="https://www.amrita.edu/campus/bengaluru/"
+          style="text-decoration:none" target="_blank">Amrita Vishwa Vidyapeetham, Bengaluru</a>, in the School of
+        Artificial Intelligence. Before that I did a postdoc at the <a href="https://www.unr.edu/me/"
+          style="text-decoration:none" target="_blank">University of Nevada Reno</a>, in Mechanical Engineering. My <a
+          href="#research" style="text-decoration:none">research</a> interests are dynamics of flexible structures and
+        computational methods with a focus on aerospace and industrial applications.
+
+        <!--	
 <hr />	
 I am a Postdoctoral Researcher with Prof. <a href="https://www.unr.edu/me/people/james-hanna" style="text-decoration:none" target="_blank">James Hanna</a> at the <a href="https://www.unr.edu/me/" style="text-decoration:none" target="_blank">University of Nevada, Reno</a>. We are studying the dynamics of a cable whipping under gravity. I did my Ph.D. and M.Tech. in Mechanical Engineering with Profs. <a href="https://ishans.in" style="text-decoration:none" target="_blank">Ishan Sharma</a> and <a href="https://home.iitk.ac.in/~ssgupta" style="text-decoration:none" target="_blank">Shakti S. Gupta</a> at the IIT Kanpur, India. My <a href="#research" style="text-decoration:none">research</a> interest is Applied Mechanics, especially dynamics and stability of flexible structures. Flexible structures, particularly cables, which are subjected to aero/hydrodynamic loading find many applications in Mechanical &amp; Aerospace Engineering. During my graduate studies, I have taken <a href="#course" style="text-decoration:none">courses</a> in Mechanics and Mathematics and developed a scientific attitude to research. This webpage gives an overview of the kinds of problems I like to work on.</p>
 	      
 <p>In my <a href="#sloshing" style="text-decoration:none">M.Tech</a>, I did theoretical modeling and experiments of <a href="#sloshing" style="text-decoration:none">fuel sloshing</a> in spacecraft. It was an inverse problem in rigid-body dynamics. Our model established, to some extent, the relation between the fuel remaining and the deviation of spacecraft’s attitudinal motion from its predicted rigid-body motion. During my Ph.D., I worked on the following two problems concerning the dynamics of cables which are subjected to aero/hydrodynamic loads. Initially, I did theoretical modeling of a <a href="#traveling" style="text-decoration:none">traveling ﬂexible cable</a> and solved its governing equation using Spectral Element (SE), as well as Finite Element (FE) techniques. This problem was in the context of the stability of tethered aerostats (blimps). Later in my Ph.D., I worked on the dynamics of a <a href="#towing" style="text-decoration:none">ﬂexible cable towing</a> an underslung load beneath a helicopter. Here the cable was modeled using the geometrically exact (GE) beam theory, and the resulting nonlinear equations of motion were solved using FE technique. This problem has application to mineral sensing wherein large mineral sensors towed by helicopters are utilized.</p>
 -->
-<p>Please feel free to <a href="#contactinfo" style="text-decoration:none">email</a> me.</p>
+      <p>Please feel free to <a href="#contactinfo" style="text-decoration:none">email</a> me.</p>
 
-<hr />
-</section>
+      <hr />
+    </section>
 
-<section>
-<h2 id="research">Research</h2>
+    <section>
+      <h2 id="research">Research</h2>
 
-<button class="collapsible" data-toggle="collapse">Whipping string</button>
-<div class="content">
-  <embed type="text/html" src="Whip.html"  width="100%" height="250" scale="tofit" >
-</div>
+      <button class="collapsible" data-toggle="collapse">Whipping string</button>
+      <div class="content">
+        <embed type="text/html" src="Whip.html" width="100%" height="250" scale="tofit">
+      </div>
 
-<button class="collapsible" data-toggle="collapse">Balloon tethers</button>
-<div class="content">
-  <embed type="text/html" src="Balloon.html"  width="100%" height="250" scale="tofit">
-</div>
+      <button class="collapsible" data-toggle="collapse">Balloon tethers</button>
+      <div class="content">
+        <embed type="text/html" src="Balloon.html" width="100%" height="250" scale="tofit">
+      </div>
 
-<button class="collapsible" data-toggle="collapse">Towing cables</button>
-<div class="content">
-  <embed type="text/html" src="Towing.html"  width="100%" height="250" scale="tofit">
-</div>
+      <button class="collapsible" data-toggle="collapse">Towing cables</button>
+      <div class="content">
+        <embed type="text/html" src="Towing.html" width="100%" height="250" scale="tofit">
+      </div>
 
-<button class="collapsible" data-toggle="collapse">Traveling cables</button>
-<div class="content">
-  <embed type="text/html" src="Traveling.html"  width="100%" height="250" scale="tofit">
-</div>
+      <button class="collapsible" data-toggle="collapse">Traveling cables</button>
+      <div class="content">
+        <embed type="text/html" src="Traveling.html" width="100%" height="250" scale="tofit">
+      </div>
 
-<button class="collapsible" data-toggle="collapse">Fuel sloshing</button>
-<div class="content">
-  <embed type="text/html" src="Sloshing.html"  width="100%" height="250" scale="tofit">
-</div>
+      <button class="collapsible" data-toggle="collapse">Fuel sloshing</button>
+      <div class="content">
+        <embed type="text/html" src="Sloshing.html" width="100%" height="250" scale="tofit">
+      </div>
 
-<hr />
-</section>
+      <hr />
+    </section>
 
 
-<section>
-<h2 id="teaching">Teaching</h2>
+    <section>
+      <h2 id="teaching">Teaching</h2>
 
-<button class="collapsible" data-toggle="collapse">23PHY104: Computational Mechanics - I (Jul - Dec 2023)</button>
-<div class="content">
-  <embed type="text/html" src="CM1.html"  width="100%" height="250" scale="tofit">
-</div>
+      <button class="collapsible" data-toggle="collapse">23PHY104: Computational Mechanics - I (Jul - Dec 2023)</button>
+      <div class="content">
+        <embed type="text/html" src="CM1.html" width="100%" height="250" scale="tofit">
+      </div>
 
-<button class="collapsible" data-toggle="collapse">23AID101: Computational Thinking (Jul - Dec 2023): Jointly with Dr. Vineet Nair.</button>
-<div class="content">
-  <embed type="text/html" src="CT.html"  width="100%" height="250" scale="tofit">
-</div>
-	      
-<!--<p>Dynamics and vibrations,  Continuum mechanics,  Vibrations of continuous systems, Applied mathematics, Asymptotic and Perturbation methods, Spectral methods for partial differential equations,<a id="education"> </a>Numerical solutions to integral equations, Nonlinear dynamics, Theory of elasticity, Mechanics of solids, and Theory of machines and mechanisms.</p>
+      <button class="collapsible" data-toggle="collapse">23AID101: Computational Thinking (Jul - Dec 2023): Jointly with
+        Dr. Vineet Nair.</button>
+      <div class="content">
+        <embed type="text/html" src="CT.html" width="100%" height="250" scale="tofit">
+      </div>
+
+      <!--<p>Dynamics and vibrations,  Continuum mechanics,  Vibrations of continuous systems, Applied mathematics, Asymptotic and Perturbation methods, Spectral methods for partial differential equations,<a id="education"> </a>Numerical solutions to integral equations, Nonlinear dynamics, Theory of elasticity, Mechanics of solids, and Theory of machines and mechanisms.</p>
 -->
-<hr />
+      <hr />
 
-</section>
+    </section>
 
-<section>
-<h2 id="email">eMail</h2>
+    <section>
+      <h2 id="email">eMail</h2>
 
-<blockquote>
-  <p>d_abhinav@blr.amrita.edu</p>
-</blockquote>
+      <blockquote>
+        <p>d_abhinav@blr.amrita.edu</p>
+      </blockquote>
 
-</section>
-      
-<footer>
+    </section>
+
+    <footer>
+      <br><br>
+      <center>धन्यवाद | <small>Thank you for visiting my <a href="https://abhinavrd.github.io/">homepage</a></small>
         <br><br>
-        <center>धन्यवाद | <small>Thank you for visiting my <a href="https://abhinavrd.github.io/">homepage</a></small>
-        <br><br>
-	<div id="google_translate_element" font-size="10px" font-family="sans-serif"></div>
+        <div id="google_translate_element" font-size="10px" font-family="sans-serif"></div>
 
-	<script type="text/javascript">
-	function googleTranslateElementInit() {
-  	new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 	'google_translate_element');
-	}
-	</script>
-	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        <script type="text/javascript">
+          function googleTranslateElementInit() {
+            new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE }, 'google_translate_element');
+          }
+        </script>
+        <script type="text/javascript"
+          src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
-	</center>
-        
-</footer>
-</div>
-    <script src="https://pages-themes.github.io/minimal/assets/js/scale.fix.js"></script>
+      </center>
 
-<script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.maxHeight){
-      content.style.maxHeight = null;
-    } else {
-      content.style.maxHeight = content.scrollHeight + "px";
-    } 
-  });
-}
-</script>
+    </footer>
+  </div>
+  <script src="https://pages-themes.github.io/minimal/assets/js/scale.fix.js"></script>
 
-  </body>
+  <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight) {
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        }
+      });
+    }
+  </script>
+
+</body>
+
 </html>
