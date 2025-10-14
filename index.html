@@ -223,9 +223,10 @@
           <a href="https://latexeditor.lagrida.com/" style="text-decoration:none" target="_blank">Equation Editor</a><br>
 		  <a href="https://www.perplexity.ai/" style="text-decoration:none" target="_blank">perplexity</a><br>	
         </small>
-        <br><br>  
+        <br>
+		<span style='font-size:50px;' onclick="myFunctionb()">&#9681;</span>  
+		<br>  
 		
-		<button class="btn" onclick="myFunction2()">Dark/Light Mode</button>
 		  
         <svg id="mySVG">
           <path fill="lightgray" stroke="orange" stroke-width="3" id="triangle" d="M 20 10 q 115 30 230 0 " />
@@ -246,6 +247,8 @@
             percentage scrolled-- >
               window.addEventListener("scroll", myFunction);
 
+			
+
           function myFunction() {
             var scrollpercent = (document.body.scrollTop + document.documentElement.scrollTop) /
               (document.documentElement.scrollHeight - document.documentElement.clientHeight);
@@ -256,7 +259,7 @@
               triangle.style.strokeDashoffset = length - draw;
           }
 
-			function myFunction2() {
+			function myFunctionb() {
             var element = document.body;
             element.classList.toggle("dark-mode");
           }
