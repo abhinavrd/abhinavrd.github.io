@@ -225,6 +225,11 @@
         </small>
         <br>
 		<span style='font-size:50px;' onclick="myFunctionb()">&#9681;</span>  
+		  <script>
+			  function myFunctionb() { 
+				  var element = document.body; element.classList.toggle("dark-mode"); 
+			  }
+		  </script>
 		<br>  
 		
 		  
@@ -257,11 +262,6 @@
 
               < !--Reverse the drawing(when scrolling upwards)-- >
               triangle.style.strokeDashoffset = length - draw;
-          }
-
-			function myFunctionb() {
-            var element = document.body;
-            element.classList.toggle("dark-mode");
           }
         </script>
       </center>
