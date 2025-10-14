@@ -132,6 +132,35 @@
     .accordion input[type="radio"]:checked+label::before {
       content: '-';
     }
+
+	/* --- Dark Mode Styles --- */
+.dark-mode {
+    background-color: #121212; /* Dark background for the body */
+    color: #e0e0e0; /* Light text for the body */
+}
+
+.dark-mode .btn {
+    background-color: #333333;
+    color: #cccccc;
+    border-color: #444444;
+}
+
+.dark-mode .badge {
+    background-color: #444444;
+    color: #f8f8f8;
+}
+
+.dark-mode .accordion li {
+    background: #2a2a2a; /* Darker accordion item background */
+    /* Adjust shadow for dark mode */
+    box-shadow: 3px 3px 3px -1px rgba(0, 0, 0, 0.5),
+        -3px -3px 3px -1px rgba(50, 50, 50, 0.7);
+}
+
+.dark-mode .accordion .content {
+    color: #cccccc; /* Light text for content */
+    background-color: #1e1e1e; /* Dark content background */
+}  
   </style>
 
 
@@ -195,7 +224,9 @@
 		  <a href="https://www.perplexity.ai/" style="text-decoration:none" target="_blank">perplexity</a><br>	
         </small>
         <br><br>  
-
+		
+		<button class="btn" onclick="myFunction2()">Dark/Light Mode</button>
+		  
         <svg id="mySVG">
           <path fill="lightgray" stroke="orange" stroke-width="3" id="triangle" d="M 20 10 q 115 30 230 0 " />
         </svg>
@@ -223,6 +254,11 @@
 
               < !--Reverse the drawing(when scrolling upwards)-- >
               triangle.style.strokeDashoffset = length - draw;
+          }
+
+			function myFunction2() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
           }
         </script>
       </center>
